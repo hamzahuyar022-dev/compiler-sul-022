@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Microsoft ResX file format -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata" type="xsd:string" minOccurs="0" />
+          <xsd:element name="assembly" type="xsd:string" minOccurs="0" />
+          <xsd:element name="data" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+          <xsd:element name="resheader" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+        </xsd:choice>
+        <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+        <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="2" />
+        <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="3" />
+        <xsd:attribute name="xml:space" default="preserve" msdata:Ordinal="4" />
+      </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="resheader" default="ResHeader">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element ref="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute ref="xml:lang" />
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resdata name="$this.TrayHeight" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>80</value>
+  </resdata>
+</root>
